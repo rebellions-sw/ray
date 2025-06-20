@@ -385,6 +385,13 @@ py_test_module_list(
     size = "small",
     files = [
         "accelerators/test_accelerators.py",
+        "accelerators/test_amd_gpu.py",
+        "accelerators/test_intel_gpu.py",
+        "accelerators/test_npu.py",
+        "accelerators/test_nvidia_gpu.py",
+        "accelerators/test_tpu.py",
+        "accelerators/test_rbln.py",
+        "test_actor_lineage_reconstruction.py",
         "test_actor_out_of_order.py",
         "test_annotations.py",
         "test_args.py",
